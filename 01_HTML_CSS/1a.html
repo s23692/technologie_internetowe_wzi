@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>"Zadanie HTML"</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h2>Strona o kotach</h2>
+        <p><img src="kot2.jpg" class="zdjecie">Czerwiec zaskoczył nas wyjątkowo wysokimi temperaturami, a to dopiero początek lata. <b>Dlatego dziś chce Wam pokazać rozwiązania proponowane przez rynek zoologiczny.</b> 
+            Producenci prześcigają się w wymyślaniu produktów, które mają ułatwić zwierzakom przetrwanie upalnych dni. Jedne z nich są bardziej trafne inne mniej. 
+            Zdecydowanie rekordy popularności biją maty chłodzące.</p>
+        <p><img src="kot3.jpg">Na spacery najlepiej wybrać miejsce czyste, mało oblegane, gdzie kot nie będzie stresował się obecnością obcych ludzi i innych zwierząt. 
+            <em>Szukajmy miejsc zielonych, urozmaiconych, z różnymi zakamarkami</em> np. krzakami, które można eksplorować. 
+            Z dala od tłumów, psów, z dala od ruchliwej drogi. Warto upewnić się, że okoliczna roślinność jest bezpieczna, a podłoże czyste.</p>
+        <p><img src="kot4.jpg">Nie jestem zwolenniczką przypinania kota i zostawiania go na dłuższy czas bez opieki. Po pierwsze dlatego, że pod naszą nieobecność może się <mark>uwolnić z szelek</mark> – 
+            i katastrofa gotowa. Po drugie, jeśli wyprowadzamy kota w nie do końca znanym nam miejscu, trzeba obserwować, co dokładnie podgryza i 
+            czy nie jest to trujące. Pilnujemy też, by zwierzak nie wyrządzał szkody środowisku naturalnemu – mam tu na myśli szczególnie polowanie na ptaki. 
+            Spacer to czas, który poświęcamy kotu i w tym czasie dbamy o jego bezpieczeństwo.</p>
+
+        <h2>Dlaczego warto mieć kota?</h2>
+        <ol>
+            <li>Kontakt ze zwierzęciem działa rozwijająco na człowieka.</li>
+            <li>Kontakt ze zwierzęciem wywołuje empatię, poczucie obowiązaku.</li>
+            <li>Obecność kota jest bardzo wyciszająca.</li>
+            <li>Kontakt z kotem fajnie działa na poczucie samotności i wyizolowania.
+                <ul>
+                    <li>Koty są wdzięczne.</li>
+                    <li>Koty są nienachalne.</li>
+                    <li>Koty są bardzo ciche.</li>
+                </ul>
+            </li>
+        </ol>
+        <table>
+            <tr><th>Imie</th><th>Rasa</th><th>Wiek</th><th>Płeć</th></tr>
+            <tr><td>Mruczek</td><td>Brytyjski</td><td>5</td><td>Kot</td></tr>
+            <tr><td>Baku</td><td>Bengalski</td><td>7</td><td>Kotka</td></tr>
+            <tr><td>Pantera</td><td>Syjamski</td><td>12</td><td>Kotka</td></tr>
+            <tr><td>Tygrys</td><td>Ragdoll</td><td>3</td><td>Kotka</td></tr>
+        </table>
+        <table>
+            <tr><td><img src="kot1.jpg"></td><td>Koty rasowe i ich waga – sprawdź, ile powinny ważyć koty poszczególnych ras</td></tr>
+            <tr><td colspan="2">W przypadku kotów rasowych łatwiej jest określić prawidłową wagę – jest ona bowiem zwykle jedną z cech charakterystycznych danej rasy. 
+                Wśród kocich arystokratów znajdziemy zarówno zwierzęta bardzo małe i lekkie, jak i takie, o których można powiedzieć, że faktycznie „swoje ważą”.</td></tr>
+        </table>
+        <form>
+            <sup class = "formSub">*</sup><label class="formLabel">Tytuł</label><input class="formField" type = "text" name = "tytul"/><br>
+            <sup class = "formSub">*</sup><label class="formLabel">Hasło</label><input class="formField" type="password" name = "haslo"/><br>
+            <label class="formLabel">Czy akceptujesz regulamin</label><input class="box" type="checkbox" name="regulamin"/><br>
+            <label class="formLabel">Płeć</label><input class="box" type="radio" name="plec" value="K"/><label>K</label>
+            <input type="radio" class="box" name="plec" value="M"/><label>M</label><br>
+            <label class="formLabel">Stan cywilny</label><select class="formField" name="stan">
+                <option>panna/kawaler</option>
+                <option>zamężna/zamężny</option>
+                <option>rozwiedziona/y</option>
+                <option>wdowa/wdowiec</option>
+            </select><br>
+            <label class="formLabel">Opis</label><textarea name = "textarea" class="formArea"></textarea><br>
+            <input class="button" type="submit" value="Zatwierdz">
+            <input class="button" type="reset" value="Wyczysc">
+        </form>
+	</body>
+</html>

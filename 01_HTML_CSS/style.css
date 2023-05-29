@@ -1,0 +1,55 @@
+body{
+    font-family: Helvetica;
+    font-size: 16px;
+}
+table{    
+    border-collapse:separate;
+	border: 1px solid black;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style-type: square;
+}
+.formLabel {
+	font-family: 'Aclonica', sans-serif;
+	color: black;
+	font-size: 16px;
+	text-align: center;
+}
+.formSub {
+	color: red;
+}
+.formField {
+	width: 80%;
+	height: 15px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	background-color: #efeeee;
+}
+.formArea {
+	width: 80%;
+	height: 40px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	background-color: #efeeee;
+}
+.button {
+	font-family: 'Aclonica', sans-serif;
+	margin: 5px;
+	border-radius: 25px;
+	height: 25px;
+	width: 50%;
+	border: 2px solid #ecc4c4;
+	background-color: #f3dada;
+}
+.zdjecie{
+    clear: right;
+    float: left;
+}
+.zdjecie2{
+    clear: both;
+}
